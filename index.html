@@ -3,24 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Escape the Museum</title>
-    <link href="style.css" rel="stylesheet" />
-    <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.js"></script>
-    <script defer src="game.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
-    
+    <title>Songhara AU Generator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   
-    
-   <main>
-
-        <h1>Escape the Museum</h1>
-   
-    <p>You've woken up in the museum... and now you must escape! Find clues, traverse through the dark, and find your way out! </p>
-
-   </main>
+    <div class="overlay">
+        <div class="container">
+            <h1>Songhara AU Generator</h1>
+            <div class="au-list" id="auList"></div>
+            <div class="images">
+                <img src="https://i.pinimg.com/564x/e8/1a/af/e81aaf645facaf52f7e9dbdf59696fdd.jpg" alt="Image 1">
+                <img src="https://www.thefashionisto.com/wp-content/uploads/2012/05/daisuke-ueda-hm15.jpg" alt="Image 2">
+            </div>
+            <button id="generateBtn">Generate</button>
+            <div id="result">
+                <p><strong>Relationship:</strong> <span id="relationship"></span></p>
+                <p><strong>Gege Status:</strong> <span id="gegeStatus"></span></p>
+                <p><strong>Sexual Identity:</strong> <span id="sexualIdentity"></span></p>
+                <p><strong>Tropes:</strong> <span id="tropes"></span></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>

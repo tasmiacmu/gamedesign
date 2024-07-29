@@ -1,19 +1,64 @@
-
 body {
-    background-color: #292225;
-    background-repeat: repeat-y;
-    text-align: center;
-    align-content: center;
-  }
-  
-  h1 {
-    font-family: 'Pixelify Sans', sans-serif;
-    color: #ccab78;
-    font-size: 35px;
-  }
-  
-  p {
-    font-family: 'Pixelify Sans', sans-serif;
-    color: #ccab78;
-    font-size: 15px;
-  }
+  font-family: Arial, sans-serif;
+  background: url('https://wallpapers.com/images/hd/mo-dao-zu-shi-wangxian-fan-art-9wubvbcj7zwhiq8c.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.overlay {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.au-list {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 20px 0;
+  display: none; /* Initially hidden */
+}
+
+.images img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#result {
+  margin-top: 20px;
+}
+
+#result p {
+  font-size: 18px;
+}
